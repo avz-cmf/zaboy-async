@@ -2,10 +2,8 @@
 
 namespace zaboy\async\Promise;
 
-use zaboy\async\Promise\Client;
 use zaboy\async\Promise\Store;
 use zaboy\async\BrokerAbstract;
-use zaboy\async\Promise\PromiseException;
 
 class Broker extends BrokerAbstract
 {

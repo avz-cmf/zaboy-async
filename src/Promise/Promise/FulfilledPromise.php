@@ -10,12 +10,10 @@
 namespace zaboy\async\Promise\Promise;
 
 use zaboy\async\Promise\Promise\DeterminedPromise;
-use zaboy\async\Promise\Promise\PendingPromise;
 use zaboy\async\Promise\Promise\DependentPromise;
-use GuzzleHttp\Promise\PromiseInterface;
 use zaboy\async\Promise\PromiseException;
 use zaboy\async\Promise\Store;
-use zaboy\async\Promise\Client;
+use zaboy\async\Promise\Interfaces\PromiseInterface;
 
 /**
  * FulfilledPromise
